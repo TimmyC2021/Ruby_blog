@@ -47,7 +47,7 @@ end
 
 group :test do
   # Attempting to resolve sqlite3 errors in heroku
-  gem 'sqlite3'
+gem 'sqlite3', '~> 1.4'
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 3.26'
   gem 'selenium-webdriver'
